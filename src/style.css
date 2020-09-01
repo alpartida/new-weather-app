@@ -21,6 +21,11 @@ form {
   padding: 0 20px;
   text-align: center;
 }
+a {
+  color: #fffeff;
+  text-decoration: underline;
+  cursor: pointer;
+}
 
 button {
   background: #f8c29c;
@@ -83,4 +88,13 @@ button {
 .day-2 {
   opacity: 0.5;
   padding: 15px 20px;
+}
+.units {
+  position: relative;
+  font-size: 12pt;
+  top: -10px;
+}
+#date {
+  color: #fffeff;
+  text-align: center;
 }

@@ -14,9 +14,9 @@
 
 <body>
     <div class="container">
-        <div class="form-zip">
+        <div class="city-form">
             <form>
-                <input type="text" placeholder="zip code">
+                <input type="text" placeholder="city">
                 <button type="submit" class="btn btn-secondary">Submit</button>
                 </input>
             </form>
@@ -24,7 +24,8 @@
         <div class="current-weather">
             <h3>Cloudy</h3>
             <h1>Paris</h1>
-            <h2>60°</h2>
+            <h2><span id="temp">19</span> <span class="units"><a href="#">C</a> | <a href="#">F</a> </span> </h2>
+            <div id="date"></div>
             <i class="fas fa-cloud"></i>
         </div>
         <div class="days">
@@ -60,6 +61,7 @@
             </div>
         </div>
     </div>
+<script src="/src/index.js"></script>
 </body>
 
 </html>
