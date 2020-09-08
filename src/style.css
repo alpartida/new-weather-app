@@ -94,6 +94,10 @@ button {
   font-size: 12pt;
   top: -10px;
 }
+.mainWeatherImg {
+  display: block;
+  margin: auto;
+}
 #date {
   color: #fffeff;
   text-align: center;
