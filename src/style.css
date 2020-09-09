@@ -98,7 +98,14 @@ button {
   display: block;
   margin: auto;
 }
+.github-link {
+  color: black;
+  display: block;
+  margin-top: 3rem;
+  text-align: center;
+}
 #date {
   color: #fffeff;
   text-align: center;
 }
+
