@@ -107,5 +107,16 @@ button {
 #date {
   color: #fffeff;
   text-align: center;
+  text-emphasis: bold;
+  font-size: 16pt;
 }
 
+#humidity {
+   color: #fffeff;
+  text-align: center;
+}
+
+#windspeed {
+   color: #fffeff;
+  text-align: center;
+}

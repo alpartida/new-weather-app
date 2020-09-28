@@ -5,6 +5,8 @@ let input = document.querySelector("input");
 let lastClicked = "C";
 let inputValue = input.value;
 
+let humidity = document.querySelector("#humidity")
+let windSpeed = document.querySelector("#windspeed")
 let description = document.querySelector("h3");
 let weatherImage = document.querySelector("#mainWeatherImage");
 
@@ -62,6 +64,8 @@ function successResponse(resp) {
   weatherImage.src = imageUrl;
   description.innerHTML = resp.data.weather[0].description;
   currentH1.innerHTML = input.value || resp.data.name;
+  humidity.innerHTML = `Humidity: ${resp.data.main.humidity} %`;
+  windSpeed.innerHTML = `Wind Speed: ${resp.data.wind.speed} km/h`;
   temps[0].innerHTML = Math.round(resp.data.main.temp);
   input.value = "";
 }
